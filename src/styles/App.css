@@ -1,0 +1,65 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.App::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(13, 29, 54, 0.2), rgba(3, 11, 23, 0.8));
+  pointer-events: none;
+  z-index: -1;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  scroll-margin-top: 50px;
+  position: relative;
+}
+
+/* First section after header should have less top padding */
+section:first-of-type {
+  padding-top: 10px;
+}
+
+.section-title {
+  position: relative;
+  color: var(--text-color);
+  margin-bottom: 25px;
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 4px;
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 60px 15px;
+  }
+  
+  .section-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+} 
