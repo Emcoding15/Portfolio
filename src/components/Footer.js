@@ -19,10 +19,10 @@ const Footer = () => {
             <a href="#contact">Contact</a>
           </div>
           <div className="footer-social">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/john-michael-guerra-228353341/?trk=public-profile-join-page" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="LinkedIn">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
+            <a href="https://github.com/Emcoding15" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
               <i className="fab fa-github"></i>
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Twitter">
