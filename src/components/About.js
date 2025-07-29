@@ -18,17 +18,48 @@ const About = () => {
               applications. My diverse skill set allows me to work on various platforms - 
               from mobile apps to desktop software and backend systems.
             </p>
-            <p>
-              Here are some technologies I've been working with:
-            </p>
-            <ul className="skills-list">
-              <li>Python (Django, Flask)</li>
-              <li>Java (Spring, Android)</li>
-              <li>JavaScript/TypeScript</li>
-              <li>React Native</li>
-              <li>Electron</li>
-              <li>SQL/NoSQL Databases</li>
-            </ul>
+            
+            <div className="skills-compact">
+              <div className="skill-group">
+                <div className="skill-header">
+                  <i className="fas fa-code"></i>
+                  <h3>Programming</h3>
+                </div>
+                <p>Python, C#, Java, JavaScript, React, HTML/CSS, Dart, SQL</p>
+              </div>
+              
+              <div className="skill-group">
+                <div className="skill-header">
+                  <i className="fas fa-database"></i>
+                  <h3>Databases</h3>
+                </div>
+                <p>Firebase, MySQL, SQL/NoSQL</p>
+              </div>
+              
+              <div className="skill-group">
+                <div className="skill-header">
+                  <i className="fas fa-layer-group"></i>
+                  <h3>Frameworks</h3>
+                </div>
+                <p>React.js, Flutter, Unity, Electron, PyQT</p>
+              </div>
+              
+              <div className="skill-group">
+                <div className="skill-header">
+                  <i className="fas fa-tools"></i>
+                  <h3>Dev Tools</h3>
+                </div>
+                <p>Git, GitHub, GitLab, VSC, Vercel, Figma, Google AI Studio</p>
+              </div>
+              
+              <div className="skill-group">
+                <div className="skill-header">
+                  <i className="fas fa-laptop-code"></i>
+                  <h3>Specialties</h3>
+                </div>
+                <p>Software Development, Web Development, Mobile Apps, AI Integration</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
