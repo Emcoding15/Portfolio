@@ -65,8 +65,8 @@ const Contact = () => {
             <div className="contact-item">
               <h3 className="info-title">Social Media</h3>
               <div className="social-links">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/john-michael-guerra-228353341/?trk=public-profile-join-page" target="_blank" rel="noopener noreferrer" className="social-link">LinkedIn</a>
+                <a href="https://github.com/Emcoding15" target="_blank" rel="noopener noreferrer" className="social-link">GitHub</a>
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">Twitter</a>
               </div>
             </div>
